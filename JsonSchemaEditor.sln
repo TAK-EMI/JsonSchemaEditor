@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSchemaEditor", "JsonSchemaEditor\JsonSchemaEditor.csproj", "{8A6BD48E-F460-494A-90F3-71140BEA0E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSchemaEditor", "JsonSchemaEditor\JsonSchemaEditor.csproj", "{8A6BD48E-F460-494A-90F3-71140BEA0E12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
