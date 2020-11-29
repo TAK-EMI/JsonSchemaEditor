@@ -1,5 +1,5 @@
 ﻿Type: 
-<select name="type">
+<select name="type" @bind="typeStr">
     <option value="boolean">真偽値型</option>
     <option value="integer">整数型</option>
     <option value="number">数値型</option>
@@ -9,6 +9,19 @@
 </select>
 <input type="checkbox" name="nullable" />Nullable
 
-@code {
+<p>@typeStr</p>
 
+@if(typeStr == "boolean")
+{
+    <p>boolean</p>
+}
+else
+{
+    <p>other</p>
+}
+
+@code {
+    private string typeStr = "integer";
+
+    
 }
